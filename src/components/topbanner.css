@@ -1,0 +1,131 @@
+.topBanner{
+    position: relative;
+    background-image: url(../assets/topbanner-bg.png);
+    background-color: rgb(15, 66, 95);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+ .logo{
+     background-color: #fff;
+     clip-path:polygon(0 0, 100% 0, 90% 100%, 0% 100%);;
+     padding: 10px 0;
+ }
+ .log-in{
+     text-align: right;
+     background: rgba(11, 56, 83, 0.7);
+     clip-path: polygon(6% 0, 100% 0, 100% 100%, 0% 100%);
+     margin: 20px 0;
+ }
+ .main-box{
+     display: table;
+ }
+ .box{
+    position: relative;
+    background: rgba(11, 56, 83, 0.7);
+     display: table-cell;
+     vertical-align: middle;
+     height:137px;
+     width: 175px;
+     border-radius: 3px;
+ }
+ .box img{
+     margin-bottom: 15px;
+ }
+ form{
+     width: 100%;
+ }
+ input{
+     border:none;
+     width: 50%;
+     padding:15px;
+     border-right:1px solid #C2C2C2;
+     margin-bottom: 25px;
+ }
+.search-icon{
+    background-color: #FF6600;
+    color: #fff;
+    border: none;
+    width: 50px;
+    height: 45px;
+    margin: 5px;
+    margin-left: -60px;
+}
+.fa-sign-in:before {
+    content: "\f090";
+    color: #fff;
+}
+.logo-img{
+    width: 123px;
+    height:68px;
+}
+
+.log-in-link>ul{
+    border-top: 2px solid #FF6600;
+    display: inline-flex;
+    padding: 20px 0;
+    margin-bottom: 0;
+}
+.log-in-link>ul>li{
+    list-style-type: none;
+    }
+    .log-in-link>ul>li>a{
+       color:#fff;
+        }
+    .welcome{
+        padding-top:160px;
+    }
+.box{
+    padding:25px 0;
+}
+i.fa.fa-search{
+    color:#fff;
+}
+/* .location-icon::placeholder{
+    padding-top: 5px;
+ background-image: url(../assets/location.png);
+ background-repeat: no-repeat;
+  } */
+ @media (max-width: 1200px) {
+
+   }
+ @media (max-width: 992px) {
+    .topBanner{
+        height: auto;
+    }
+    .main-box{
+        margin-bottom: 10px;
+         }
+  }
+ @media (max-width: 768px) { 
+    .topBanner{
+        height: auto;
+    }
+    .main-box{
+        margin-bottom: 10px;
+         }
+         h1{
+             font-size: 65px;
+         }
+  }
+ @media (max-width: 576px) {
+    .topBanner{
+        height: auto;
+    }
+    .main-box{
+        margin-bottom: 10px;
+        }
+    .logo{
+        clip-path:none;
+        padding: 10px 0;
+    }
+    .log-in{
+        clip-path:none;
+        margin: 10px 0;
+    }
+    h1 {
+        font-size: 45px;
+    }
+   }
+

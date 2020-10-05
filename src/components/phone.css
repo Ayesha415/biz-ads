@@ -1,0 +1,51 @@
+.phone{
+    background-image: url(../assets/phone-bg.png);
+    position: relative;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.phone p{
+    color:#000;
+}
+.phone-img{
+    width: 309px;
+    height:413px;
+    margin-top: -70px;
+}
+.phone-img img{
+    width: 100%;
+}
+.apple{
+    display: flex;
+    height: 65px;
+    width: 60px;
+    background-color: #12567C;
+}
+.apple img{
+    margin: auto;
+}
+.apple-box p{
+    margin-bottom: 0;
+}
+.media.apple-box {
+
+}
+.apple-media-body{
+    padding:10px 10px 0px 10px;
+    border: 1px solid #000;
+}
+.phone-col{
+    padding:100px 0;
+}
+@media (max-width: 1200px) {
+
+}
+@media (max-width: 992px) {
+
+}
+@media (max-width: 768px) { 
+
+}
+@media (max-width: 576px) {
+
+}

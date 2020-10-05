@@ -1,0 +1,53 @@
+
+*{
+  padding:0;
+  margin:0;
+}
+h1{
+  font-family: 'HelveticaNeue MediumCond';
+  font-size: 71px;
+  font-weight: 500;
+  font-style: normal;
+  color:#fff;
+}
+h1>span{
+  font-weight: 900;
+  color: #eb800c;
+}
+h2>span{
+  font-size: 44px;
+  color: #eb800c;
+}
+p{
+  font-size: 14px;
+  font-family: 'Poppins';
+  color:#fff;
+}
+h2{
+  font-size: 44px;
+  font-family: 'HelveticaNeue MediumCond';
+  font-weight: 500;
+  font-style: normal;
+  color:#0E405D;
+}
+h4{
+  font-size: 28px;
+  font-family: 'HelveticaNeue MediumCond';
+  font-style: normal;
+  color:#FF7800;
+}
+h5{
+  font-size: 64px;
+  font-family: 'HelveticaNeue MediumCond';
+  font-weight: 100;
+  font-style: normal;
+  color:#0B3E5A;
+}
+h5>span{
+  font-weight: bold;
+}
+h6{
+font-family: 'HelveticaNeue MediumCond';
+font-size: 20px;
+color:#FEFEFE;
+}
